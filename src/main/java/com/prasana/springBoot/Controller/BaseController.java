@@ -11,6 +11,6 @@ public class BaseController {
 
     @RequestMapping(value = "/",  method = RequestMethod.GET)
     public String landingPage(){
-        return "Good";
+        return "Goods";
     }
 }

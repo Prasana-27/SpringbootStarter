@@ -53,6 +53,7 @@ public class DepartmentController {
 
     @GetMapping("/getDepartments/name/{name}")
     public Department getDepartmentbyName( @PathVariable ("name") String name){
+            System.out.println("AAA");
         return departmentService.getDepartmentbyName(name);
     }
 }
